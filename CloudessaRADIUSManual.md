@@ -132,7 +132,9 @@ To enable two-factor authentication for user `test`.
 Now one needs to setup the smartphone for the user.
 
 * Download Google Authenticator app from
+
   Apple Appstore (iPhone)
+
   Google Play (Android)
 
 
