@@ -8,9 +8,9 @@
 
 [Lesson 2: Create a simple PAP server.](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-2-create-a-simple-pap-server)
 
-[Lesson 3: Create a simple WPA2-Enteprise/PEAP server.]
+[Lesson 3: Create a simple WPA2-Enteprise/PEAP server.](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-3-create-a-simple-wpa2-enteprisepeap-server)
 
-[Lesson 4: Restrict Client access by source IP addresses.
+[Lesson 4: Restrict Client access by source IP addresses.]
 
 [Lesson 5: Enable Two-Factor Authentication.]
 
