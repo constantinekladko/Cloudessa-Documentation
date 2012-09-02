@@ -133,9 +133,9 @@ Now one needs to setup the smartphone for the user.
 
 * Download Google Authenticator app from
 
-  [Apple Appstore (iPhone)](http://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8)
-
+  [Apple Appstore (iPhone)](http://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8),
   Google Play (Android)
+  [WindowsPhone Marketplace] (http://www.windowsphone.com/en-US/apps/021dd79f-0598-e011-986b-78e7d1fa76f8) 
   
 * Scan Barcode into Google Authenticator app
 
