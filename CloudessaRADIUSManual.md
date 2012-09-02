@@ -12,7 +12,7 @@
 
 [Lesson 4: Restrict Client access by source IP addresses.](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-4-restrict-client-access-by-source-ip-addresses)
 
-[Lesson 5: Enable Two-Factor Authentication.]
+[Lesson 5: Enable Two-Factor Authentication.](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-5-enable-two-factor-authentication)
 
 ### Lesson 1: Create a user and a group.
 
