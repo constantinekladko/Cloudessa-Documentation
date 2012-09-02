@@ -92,7 +92,7 @@ Now lets specify that the server will accept PEAP requests from all sources.
 Now the PEAP server is running and authenticating users from `Group1`.
 
 
-### Lesson 4. Restrict Client access by source IP addresses.
+### Lesson 4: Restrict Client access by source IP addresses.
 
 For security reasons it is important to restrict access to the server to a 
 
@@ -121,13 +121,7 @@ Now lets specify that the server will accept PAP requests from all sources.
 Now the PAP server is running and authenticating users from `Group1`.
 
 
-
-
-
-
-
-
-*View the [source of this content](http://github.github.com/github-flavored-markdown/sample_content.html).*
+### Lesson 5: Enable Two-factor authentication.
 
 
 
