@@ -4,9 +4,18 @@
 
 ### Lesson 1: Create a simple PAP server
 
-Lets create a simple authentication server that implements PAP protocol
+Lets create a simple authentication server that implements PAP protocol.
 
-* Go to `Virtual Servers`, click `Create`, set server name to `PAP Server` and protocol to `Pap`.
+First lets create a virtual server
+
+* Go to `Virtual Servers`, click `Create`
+* In the pop-up windows set server name to `PAP Server` and protocol to `PAP`.
+* Click `OK`. Now the server is created.
+* Now click the server to see the IP address as well as the authentication and accounting port numbers for the server. You need this information to configure your RADIUS client.
+
+Now lets create a user, a group, add the user to the group 
+
+
 
 
 
