@@ -4,7 +4,9 @@
 
 ### Lesson 1: Create a simple PAP server
 
-Lets create a simple authentication server that provides 
+Lets create a simple authentication server that implements PAP protocol
+
+* Go to `Virtual Servers`, click `Create`, set server name to `PAP Server` and protocol to `Pap`.
 
 
 
