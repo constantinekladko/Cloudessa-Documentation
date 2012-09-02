@@ -54,30 +54,30 @@ Now lets specify that the server will accept PAP requests from all sources.
 
 Now the PAP server is running and authenticating users from `Group1`.
 
-### Lesson 2: Create a simple PAP server
+### Lesson 2: Create a simple WPA2-Enteprise/PEAP server.
 
-Lets create a simple authentication server that implements PAP protocol.
+PEAP is a protocol widely used to secure Wi-Fi.
 
-First lets create a virtual server
+Lets create a simple PEAP server.
 
 * Go to `Virtual Servers`, click `Create`
-* In the pop-up windows set server name to `PAP Server` and protocol to `PAP`.
+* In the pop-up windows set server name to `PEAP Server` and protocol to `PEAP`.
 * Click `OK`. Now the server is created.
 * Now click the server to see the IP address as well as the authentication and accounting port numbers for the server. You need this information to configure your RADIUS client.
 
 Now we need to specify user groups that have access to the RADIUS server.
 
-* Select `PAP Server` in the server table.
+* Select `PEAP Server` in the server table.
 * Go to `User Groups` tab.
-* Click `Add Group` and select `Group` (we have created it in Lesson 1).
+* Click `Add Group` and select `Group1` (we have created it in Lesson 1).
 
-Now lets specify that the server will accept PAP requests from all sources. 
+Now lets specify that the server will accept PEAP requests from all sources. 
 
-* Select `PAP Server` in the server table.
+* Select `PEAP Server` in the server table.
 * Click `Edit`
 * Set `Disable IP filtering`.
 
-Now the PAP server is running and authenticating users from `Group1`.
+Now the PEAP server is running and authenticating users from `Group1`.
 
 
 
