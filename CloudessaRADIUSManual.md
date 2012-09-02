@@ -123,5 +123,19 @@ Now the PAP server is running and authenticating users from `Group1`.
 
 ### Lesson 5: Enable Two-factor authentication.
 
+To enable two-factor authentication for user `test`.
+
+* Select user `test` in the Users panel.
+* Select "Google Auth" tab.
+* Set "Enable Google Authenticator". A bar code will be generated.
+
+Now one needs to setup the smartphone for the user.
+
+* Download Google Authenticator app from
+  Apple Appstore (iPhone)
+  Google Play (Android)
+
+
+
 
 
