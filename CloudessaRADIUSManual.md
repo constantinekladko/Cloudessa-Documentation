@@ -2,7 +2,7 @@
 
 ## Chapter 1: 60 second lessons
 
-### Lesson 0: Create a user and a group.
+### Lesson 1: Create a user and a group.
 
 Lets create a group of RADIUS users, and add at least one user to this group. You'll need this for all other lessons.
 
@@ -29,7 +29,7 @@ Now add the user to the group
 Now we have created user `test` which is a member of `Group1`. 
 
 
-### Lesson 1: Create a simple PAP server
+### Lesson 2: Create a simple PAP server
 
 Lets create a simple authentication server that implements PAP protocol.
 
@@ -40,7 +40,47 @@ First lets create a virtual server
 * Click `OK`. Now the server is created.
 * Now click the server to see the IP address as well as the authentication and accounting port numbers for the server. You need this information to configure your RADIUS client.
 
-Now lets create a user, a group, add the user to the group 
+Now we need to specify user groups that have access to the RADIUS server.
+
+* Select `PAP Server` in the server table.
+* Go to `User Groups` tab.
+* Click `Add Group` and select `Group` (we have created it in Lesson 1).
+
+Now lets specify that the server will accept PAP requests from all sources. 
+
+* Select `PAP Server` in the server table.
+* Click `Edit`
+* Set `Disable IP filtering`.
+
+Now the PAP server is running and authenticating users from `Group1`.
+
+### Lesson 2: Create a simple PAP server
+
+Lets create a simple authentication server that implements PAP protocol.
+
+First lets create a virtual server
+
+* Go to `Virtual Servers`, click `Create`
+* In the pop-up windows set server name to `PAP Server` and protocol to `PAP`.
+* Click `OK`. Now the server is created.
+* Now click the server to see the IP address as well as the authentication and accounting port numbers for the server. You need this information to configure your RADIUS client.
+
+Now we need to specify user groups that have access to the RADIUS server.
+
+* Select `PAP Server` in the server table.
+* Go to `User Groups` tab.
+* Click `Add Group` and select `Group` (we have created it in Lesson 1).
+
+Now lets specify that the server will accept PAP requests from all sources. 
+
+* Select `PAP Server` in the server table.
+* Click `Edit`
+* Set `Disable IP filtering`.
+
+Now the PAP server is running and authenticating users from `Group1`.
+
+
+
 
 
 
