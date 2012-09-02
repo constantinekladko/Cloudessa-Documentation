@@ -6,7 +6,7 @@
 
 [Lesson 1: Create a user and a group.](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-1-create-a-user-and-a-group-1)
 
-[Lesson 2: Create a simple PAP server.]
+[Lesson 2: Create a simple PAP server.](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-2-create-a-simple-pap-server)
 
 [Lesson 3: Create a simple WPA2-Enteprise/PEAP server.]
 
