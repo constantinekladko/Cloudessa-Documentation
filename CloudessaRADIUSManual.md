@@ -144,8 +144,10 @@ Now one needs to setup the smartphone for the user.
 
 To perform two-factor authentication into Cloudessa RADIUS
 
-* enter a password composed of your regular password and the six digit pin, separated by a comma
+* enter the password composed of your regular password and the six digit code, separated by a comma
+
     `login:test`
+
     `password:mypassword,315739`
 
 
