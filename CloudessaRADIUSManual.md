@@ -21,7 +21,7 @@ Lets create a group of RADIUS users, and add at least one user to this group. Yo
 First create a user
 
 * Go to `Users` and click `Create`
-* Specify login as `test` and password as `test123456`
+* Specify login as `test` and password as `mypassword`
 * Click OK
 
 Now create a group
@@ -134,10 +134,19 @@ Now one needs to setup the smartphone for the user.
 * Download Google Authenticator app from
 
   [Apple Appstore (iPhone)](http://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8),
-  Google Play (Android)
+  [Google Play (Android)] (https://play.google.com/store/search?q=google+authenticator)
   [WindowsPhone Marketplace] (http://www.windowsphone.com/en-US/apps/021dd79f-0598-e011-986b-78e7d1fa76f8) 
+  [Blackberry app download] (m.google.com/authenticator)
   
 * Scan Barcode into Google Authenticator app
+* The app will start displaying temporary six-digit codes.
+
+
+To perform two-factor authentication into Cloudessa RADIUS
+
+* enter a password composed of your regular password and the six digit pin, separated by a comma
+    `login:test`
+    `password:mypassword,315739`
 
 
 
