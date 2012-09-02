@@ -92,7 +92,7 @@ Now lets specify that the server will accept PEAP requests from all sources.
 Now the PEAP server is running and authenticating users from `Group1`.
 
 
-### Lesson 3. Restrict Client access by source IP addresses.
+### Lesson 4. Restrict Client access by source IP addresses.
 
 For security reasons it is important to restrict access to the server to a 
 
