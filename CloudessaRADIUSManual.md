@@ -20,17 +20,7 @@ The next paragraph has the same phrases, but now they are separated by two space
 
 
 
-Let's get crazy:
 
-1.  This is a list item with two paragraphs. Lorem ipsum dolor
-    sit amet, consectetuer adipiscing elit. Aliquam hendrerit
-    mi posuere lectus.
-
-    Vestibulum enim wisi, viverra nec, fringilla in, laoreet
-    vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
-    sit amet velit.
-
-2.  Suspendisse id sem consectetuer libero luctus adipiscing.
 
 What about some code **in** a list? That's insane, right?
 
@@ -73,26 +63,8 @@ Set in stone
 
 Preformatted blocks are useful for ASCII art:
 
-<pre>
-             ,-. 
-    ,     ,-.   ,-. 
-   / \   (   )-(   ) 
-   \ |  ,.>-(   )-< 
-    \|,' (   )-(   ) 
-     Y ___`-'   `-' 
-     |/__/   `-' 
-     | 
-     | 
-     |    -hrr- 
-  ___|_____________ 
-</pre>
 
-Playing the blame game
-----------------------
 
-If you need to blame someone, the best way to do so is by quoting them:
-
-> I, at any rate, am convinced that He does not throw dice.
 
 Or perhaps someone a little less eloquent:
 
