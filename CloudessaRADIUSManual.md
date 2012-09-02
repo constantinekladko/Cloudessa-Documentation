@@ -1,3 +1,5 @@
+[TOC]
+
 # Cloudessa RADIUS Manual
 
 ## Chapter 1: 60 second lessons
@@ -54,7 +56,7 @@ Now lets specify that the server will accept PAP requests from all sources.
 
 Now the PAP server is running and authenticating users from `Group1`.
 
-### Lesson 2: Create a simple WPA2-Enteprise/PEAP server.
+### Lesson 3: Create a simple WPA2-Enteprise/PEAP server.
 
 PEAP is a protocol widely used to secure Wi-Fi.
 
@@ -78,6 +80,35 @@ Now lets specify that the server will accept PEAP requests from all sources.
 * Set `Disable IP filtering`.
 
 Now the PEAP server is running and authenticating users from `Group1`.
+
+
+### Lesson 3. Restrict Client access by source IP addresses.
+
+For security reasons it is important to restrict access to the server to a 
+
+
+Lets create a simple authentication server that implements PAP protocol.
+
+First lets create a virtual server
+
+* Go to `Virtual Servers`, click `Create`
+* In the pop-up windows set server name to `PAP Server` and protocol to `PAP`.
+* Click `OK`. Now the server is created.
+* Now click the server to see the IP address as well as the authentication and accounting port numbers for the server. You need this information to configure your RADIUS client.
+
+Now we need to specify user groups that have access to the RADIUS server.
+
+* Select `PAP Server` in the server table.
+* Go to `User Groups` tab.
+* Click `Add Group` and select `Group` (we have created it in Lesson 1).
+
+Now lets specify that the server will accept PAP requests from all sources. 
+
+* Select `PAP Server` in the server table.
+* Click `Edit`
+* Set `Disable IP filtering`.
+
+Now the PAP server is running and authenticating users from `Group1`.
 
 
 
