@@ -1,6 +1,33 @@
 # Cloudessa RADIUS Manual
 
-## 60 second lessons
+## Chapter 1: 60 second lessons
+
+### Lesson 0: Create a user and a group.
+
+Lets create a group of RADIUS users, and add at least one user to this group. You'll need this for all other lessons.
+
+First create a user
+
+* Go to `Users` and click `Create`
+* Specify login as `test` and password as `test123456`
+* Click OK
+
+Now create a group
+
+* Go to `User Groups` and click `Create`
+* Specify name as `Group1`
+* Click OK
+
+Now add the user to the group
+
+* Select `Group1`
+* Go to `Users` tab.
+* Click `Add user` and select user `test` 
+* Click OK
+
+
+Now we have created user `test` which is a member of `Group1`. 
+
 
 ### Lesson 1: Create a simple PAP server
 
