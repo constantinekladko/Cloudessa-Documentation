@@ -5,6 +5,12 @@
 ## Chapter 1: 60 second lessons
 
 ### Lesson 1: Create a user and a group.
+### Lesson 2: Create a simple PAP server
+### Lesson 3: Create a simple WPA2-Enteprise/PEAP server.
+### Lesson 4: Restrict Client access by source IP addresses.
+### Lesson 5: Enable Two-Factor Authentication.
+
+### Lesson 1: Create a user and a group.
 
 Lets create a group of RADIUS users, and add at least one user to this group. You'll need this for all other lessons.
 
