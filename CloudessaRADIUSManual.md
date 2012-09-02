@@ -133,9 +133,11 @@ Now one needs to setup the smartphone for the user.
 
 * Download Google Authenticator app from
 
-  Apple Appstore (iPhone)
+  [Apple Appstore (iPhone)](http://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8)
 
   Google Play (Android)
+  
+* Scan Barcode into Google Authenticator app
 
 
 
