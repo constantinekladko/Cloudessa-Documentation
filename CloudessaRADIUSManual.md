@@ -18,7 +18,7 @@
 
 * [Lesson 4: Restrict client access by source IP addresses](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-4-restrict-client-access-by-source-ip-addresses)
 
-* [Lesson 5: Enable Two-Factor Authentication](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-5-enable-two-factor-authentication)
+* [Lesson 5: Enable two-factor authentication](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-5-enable-two-factor-authentication)
 
 * [Lesson 6: Let users change and reset passwords](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-6-let-users-change-and-reset-passwords)
 
