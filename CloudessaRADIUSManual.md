@@ -29,11 +29,19 @@
 
 **Chapter 2: Users and Groups**
 
-In development
+* User roles
+* Users
+* Bulk User Export
+* User Groups
 
 **Chapter 3: Virtual RADIUS Servers**
 
-In development
+* Virtual RADIUS Servers
+* Supported Protocols
+* Src IP addresses
+* Vendor Specific Atrributes
+* Accounting
+* Audit
 
 **Chapter 4: Network access control**
 
