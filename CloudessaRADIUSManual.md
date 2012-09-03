@@ -27,6 +27,15 @@
 [Lesson 8: Create a guest login](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-8-create-guest-login)
 
 
+## Chapter 2: Users and Groups
+
+## Chapter 3: Virtual RADIUS Servers
+
+## Chapter 4: Network access control
+
+## Chapter 5: Account administration
+
+
 ### Lesson 1: Create a user and a group
 
 Let us create a group of RADIUS users, and add at least one user to this group. You'll need this for all other lessons.
