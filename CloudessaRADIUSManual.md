@@ -175,7 +175,7 @@ If the user needs to reset her password
 * User clicks on the `Reset password` link included in [Cloudessa login page](https://app.cloudessa.com/account/login)
 * Password reset instructions are emailed to the user
 
-[Lesson 7: Manage RADIUS attributes]
+Lesson 7: Manage RADIUS attributes
 
 Cloudessa lets you set RADIUS attributes to return in RADIUS response messages. You can set return attributes for a server, a user group or a particular user.
 
