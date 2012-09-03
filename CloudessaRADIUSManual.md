@@ -96,32 +96,28 @@ Now the PEAP server is running and authenticating users from `Group1`.
 
 ### Lesson 4: Restrict Client access by source IP addresses.
 
-For security reasons it is important to restrict access to the server to a 
+For security reasons it is important to restrict access to the server to a set of allowed source IP addresses.
+The server will then only accept a RADIUS request if it comes from one of the allowed source IP addresses.
+
+If your RADIUS client or Network Access Server is behind a firewall, then the source IP address that Cloudessa will see is the IP address of the firewall.
+
+Let us assume that the ip address of your firewall is `20.21.22.23`.
 
 
-Lets create a simple authentication server that implements PAP protocol.
+First lets create a source IP address. 
 
-First lets create a virtual server
+* Go to `Src IP Addresses`, click `Create`
+* In the pop-up window set the IP address to `20.21.22.23` and the name to `Gateway1`.
+* Click `OK`. Now the source IP address is creared.
 
-* Go to `Virtual Servers`, click `Create`
-* In the pop-up windows set server name to `PAP Server` and protocol to `PAP`.
-* Click `OK`. Now the server is created.
-* Now click the server to see the IP address as well as the authentication and accounting port numbers for the server. You need this information to configure your RADIUS client.
-
-Now we need to specify user groups that have access to the RADIUS server.
-
-* Select `PAP Server` in the server table.
-* Go to `User Groups` tab.
-* Click `Add Group` and select `Group` (we have created it in Lesson 1).
-
-Now lets specify that the server will accept PAP requests from all sources. 
+Now we need to use this source IP address with the PAP server we created in Lesson 2.
 
 * Select `PAP Server` in the server table.
-* Click `Edit`
-* Set `Disable IP filtering`.
+* Click `Edit`, unset `Disable IP filtering` checkbox, and click `Save`.
+* Go to `Src IP Addresses` tab.
+* Click `Add src IP address", and select `Gateway1`.
 
-Now the PAP server is running and authenticating users from `Group1`.
-
+Now the PAP server is running and accepting only requests that come from the ip address `20.21.22.23`.
 
 ### Lesson 5: Enable Two-factor authentication.
 
