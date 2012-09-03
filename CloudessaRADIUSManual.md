@@ -48,7 +48,7 @@
 * Configuring Two-factor authentication
 * Installing Google Autnenticator on client devices.
 
-**Chapter 5: JSON Web Services **
+**Chapter 5: JSON Web Services**
 
 * Authenticating into JSON Web Services
 * JSON Examples
@@ -56,7 +56,9 @@
 
 **Chapter 6: Network access control**
 
-In development
+* Configuring Openflow-compliant switches
+* Configuring protected hosts
+
 
 
 **Chapter 6: Account administration**
