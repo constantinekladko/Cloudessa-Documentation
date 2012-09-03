@@ -23,7 +23,7 @@
 
 ### Lesson 1: Create a user and a group
 
-Lets create a group of RADIUS users, and add at least one user to this group. You'll need this for all other lessons.
+Let us create a group of RADIUS users, and add at least one user to this group. You'll need this for all other lessons.
 
 First create a user
 
