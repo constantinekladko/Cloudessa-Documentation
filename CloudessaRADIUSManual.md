@@ -1,5 +1,8 @@
 # Cloudessa RADIUS Manual
 
+(c) Cloudessa, Inc. 2012
+
+
 ## Chapter 1: 60 second lessons
 
 
