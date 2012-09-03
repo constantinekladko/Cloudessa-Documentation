@@ -18,7 +18,7 @@
 
 [Lesson 7: Manage RADIUS attributes] (https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-7-manage-radius-attributes)
 
-[Lesson 8: Create a guest login] 
+[Lesson 8: Create a guest login](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-7-create-guest-login)
 
 
 ### Lesson 1: Create a user and a group.
@@ -192,7 +192,7 @@ To return `Framed-IP-Address` attribute value of `12.13.14.15` for user `test` c
 
 Note: for a particular authentication request, Cloudessa RADIUS first identifies the user, the user group and the virtual RADIUS server, and then adds up the corresponding three sets of attributes. If the same attribute value is set for the user, the user group and/or the RADIUS server, then the user group attribute overrides the server attribute, and the user attribute overrides the user group attribute.
 
-### Lesson 7: Create guest login.
+### Lesson 8: Create guest login.
 
 
 To give your guest `guest1@gmail.com` a temporary login into the `PEAP server` created in Lesson 3.
