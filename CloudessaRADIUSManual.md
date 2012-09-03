@@ -16,6 +16,8 @@
 
 [Lesson 6: Let users change and reset passwords](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-5-let-users-change-and-reset-passwords)
 
+[Lesson 7: Manage RADIUS attributes]
+
 ### Lesson 1: Create a user and a group.
 
 Lets create a group of RADIUS users, and add at least one user to this group. You'll need this for all other lessons.
@@ -173,6 +175,18 @@ If the user needs to reset her password
 * User clicks on the `Reset password` link included in [Cloudessa login page](https://app.cloudessa.com/account/login)
 * Password reset instructions are emailed to the user
 
+[Lesson 7: Manage RADIUS attributes]
 
+Cloudessa lets you set RADIUS attributes to return in RADIUS response messages. You can set return attributes for a server, a user group or a particular user.
+
+To return `Framed-IP-Address` attribute value of `12.13.14.15` for user `test` created in Lession 1
+
+* Select user `test` in the `Users` panel.
+* Select `Attributes` panel and click `Add`.
+* Select `RFCs` dictionary.
+* Select `Framed-IP-Address` attribute and set attribute value to `12.13.14.15`.
+* Click `OK`.
+
+Note: for a particular authentication request, Cloudessa RADIUS first identifies the user, the user group and the virtual RADIUS server, and then adds up the corresponding three sets of attributes. If the same attribute value is set for the user, the user group and/or the RADIUS server, then the user group attribute overrides the server attribute, and the user attribute overrides the user group attribute.
 
 
