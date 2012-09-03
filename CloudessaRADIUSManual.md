@@ -31,7 +31,7 @@
 
 * User roles
 * Users
-* Bulk User Export
+* Bulk User Import
 * User Groups
 
 **Chapter 3: Virtual RADIUS Servers**
