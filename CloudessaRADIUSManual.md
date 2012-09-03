@@ -155,6 +155,6 @@ To perform two-factor authentication into Cloudessa RADIUS
 ### Lesson 6: Let users change and reset passwords.
 
 Cloudessa provides a web interface to regular RADIUS users to change and reset their passwords.
-If you do not want a particular user to be able to change or reset her password, you can unset `Allow user manage her password` checkbox in the user settings tab.
+If you do not want a particular user to be able to change or reset her password, you can unset `Allow user to manage her password` checkbox in the user settings tab.
 
 
