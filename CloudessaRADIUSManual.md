@@ -48,7 +48,7 @@ In development
 
 ### Lesson 1: Create a user and a group
 
-Let us create a group of RADIUS users, and add at least one user to this group. You'll need this for all other lessons.
+In this lesson you create a group of RADIUS users, and add at least one user to this group. You'll need this for all other lessons.
 
 First create a user
 
