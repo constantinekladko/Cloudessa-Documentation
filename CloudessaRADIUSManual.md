@@ -14,6 +14,8 @@
 
 [Lesson 5: Enable Two-Factor Authentication.](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-5-enable-two-factor-authentication)
 
+[Lesson 6: Let users manage and reset passwords]
+
 ### Lesson 1: Create a user and a group.
 
 Lets create a group of RADIUS users, and add at least one user to this group. You'll need this for all other lessons.
