@@ -149,12 +149,30 @@ To perform two-factor authentication into Cloudessa RADIUS
 
     `login:test`
 
-    `password:mypassword,315739`
+    `password:mypassword,315425`
 
 
 ### Lesson 6: Let users change and reset passwords.
 
-Cloudessa provides a web interface to regular RADIUS users to change and reset their passwords.
+Cloudessa enables regular RADIUS users to change their passwords using a simple web interface.
 If you do not want a particular user to be able to change or reset her password, you can unset `Allow user to manage her password` checkbox in the user settings tab.
+
+To access the simple web interface for user `test` created in Lesson 1.
+
+* Go to [Cloudessa login page](https://app.cloudessa.com/account/login)
+* Enter user email `test@cloudessa.com` and password `mypassword`
+* You will be presented with the user info panel.
+
+To change user password
+
+* Go to the "Set Password" panel.
+* Set the new password.
+
+If the user needs to reset her password 
+
+* User clicks on the `Reset password` link included in [Cloudessa login page](https://app.cloudessa.com/account/login)
+* Password reset instructions are emailed to the user
+
+
 
 
