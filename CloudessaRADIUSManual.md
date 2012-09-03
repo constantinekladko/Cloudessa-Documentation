@@ -31,8 +31,8 @@
 
 * [User roles](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#21-user-roles)
 * [Users] (https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#users)
-* Bulk User Import
-* User Groups
+* [Bulk User Import] (https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#bulk-user-import)
+* [User Groups]
 
 **Chapter 3: Virtual RADIUS Servers**
 
@@ -43,12 +43,23 @@
 * Accounting
 * Audit
 
-**Chapter 4: Network access control**
+**Chapter 4: Two-factor authentication**
+
+* Configuring Two-factor authentication
+* Installing Google Autnenticator on client devices.
+
+**Chapter 5: JSON Web Services **
+
+* Authenticating into JSON Web Services
+* JSON Examples
+* API Reference
+
+**Chapter 6: Network access control**
 
 In development
 
 
-**Chapter 5: Account administration**
+**Chapter 6: Account administration**
 
 In development
 
