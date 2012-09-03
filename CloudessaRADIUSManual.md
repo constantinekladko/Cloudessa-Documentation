@@ -161,7 +161,7 @@ To access the simple web interface for user `test` created in Lesson 1.
 
 * Go to [Cloudessa login page](https://app.cloudessa.com/account/login)
 * Enter user email `test@cloudessa.com` and password `mypassword`
-* You will be presented with the user info panel.
+* You will be presented with the simple web interface panel.
 
 To change user password
 
