@@ -4,24 +4,24 @@
 
 
 
-[Lesson 1: Create a user and a group.](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-1-create-a-user-and-a-group-1)
+[Lesson 1: Create a user and a group](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-1-create-a-user-and-a-group-1)
 
-[Lesson 2: Create a simple PAP server.](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-2-create-a-simple-pap-server)
+[Lesson 2: Create a simple PAP server](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-2-create-a-simple-pap-server)
 
-[Lesson 3: Create a simple WPA2-Enteprise/PEAP server.](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-3-create-a-simple-wpa2-enteprisepeap-server)
+[Lesson 3: Create a simple WPA2-Enteprise/PEAP server](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-3-create-a-simple-wpa2-enteprisepeap-server)
 
-[Lesson 4: Restrict Client access by source IP addresses.](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-4-restrict-client-access-by-source-ip-addresses)
+[Lesson 4: Restrict Client access by source IP addresses](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-4-restrict-client-access-by-source-ip-addresses)
 
-[Lesson 5: Enable Two-Factor Authentication.](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-5-enable-two-factor-authentication)
+[Lesson 5: Enable Two-Factor Authentication](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-5-enable-two-factor-authentication)
 
-[Lesson 6: Let users change and reset passwords.](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-5-let-users-change-and-reset-passwords)
+[Lesson 6: Let users change and reset passwords](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-5-let-users-change-and-reset-passwords)
 
-[Lesson 7: Manage RADIUS attributes.] (https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-7-manage-radius-attributes)
+[Lesson 7: Manage RADIUS attributes] (https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-7-manage-radius-attributes)
 
-[Lesson 8: Create a guest login.](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-7-create-guest-login)
+[Lesson 8: Create a guest login](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-7-create-guest-login)
 
 
-### Lesson 1: Create a user and a group.
+### Lesson 1: Create a user and a group
 
 Lets create a group of RADIUS users, and add at least one user to this group. You'll need this for all other lessons.
 
@@ -99,7 +99,7 @@ Now lets specify that the server will accept PEAP requests from all sources.
 Now the PEAP server is running and authenticating users from `Group1`.
 
 
-### Lesson 4: Restrict Client access by source IP addresses.
+### Lesson 4: Restrict Client access by source IP addresses
 
 For security reasons it is important to restrict access to the server to a set of allowed source IP addresses.
 The server will then only accept a RADIUS request if it comes from one of the allowed source IP addresses.
@@ -124,7 +124,7 @@ Now we need to use this source IP address with the PAP server we created in Less
 
 Now the PAP server is running and accepting only requests that come from the ip address `20.21.22.23`.
 
-### Lesson 5: Enable Two-factor authentication.
+### Lesson 5: Enable Two-factor authentication
 
 To enable two-factor authentication for user `test`.
 
@@ -157,7 +157,7 @@ To perform two-factor authentication into Cloudessa RADIUS
     `password:mypassword,315425`
 
 
-### Lesson 6: Let users change and reset passwords.
+### Lesson 6: Let users change and reset passwords
 
 Cloudessa enables regular RADIUS users to change their passwords using a simple web interface.
 If you do not want a particular user to be able to change or reset her password, you can unset `Allow user to manage her password` checkbox in the user settings tab.
