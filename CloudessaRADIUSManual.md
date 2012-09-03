@@ -200,7 +200,7 @@ To give your guest `guest1@gmail.com` a temporary login into the `PEAP server` c
 * Go to `Guest Users` tab
 * Click `Create Guest User`
 * Enter guest email `guest1@gmail.com` and login expiration date
-* Set the login expiration date.
+* Set the login expiration date to, e.g., `May 1, 2013`.
 * Click `OK`
 
 
