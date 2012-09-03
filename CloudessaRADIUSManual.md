@@ -16,7 +16,7 @@
 
 [Lesson 6: Let users change and reset passwords](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-5-let-users-change-and-reset-passwords)
 
-[Lesson 7: Manage RADIUS attributes] [https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-7-manage-radius-attributes]
+[Lesson 7: Manage RADIUS attributes] (https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-7-manage-radius-attributes)
 
 ### Lesson 1: Create a user and a group.
 
