@@ -133,12 +133,15 @@ Now one needs to setup the smartphone for the user.
 
 * Download Google Authenticator app from
 
-  [Apple Appstore (iPhone)](http://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8),
-  [Google Play (Android)] (https://play.google.com/store/search?q=google+authenticator)
-  [WindowsPhone Marketplace] (http://www.windowsphone.com/en-US/apps/021dd79f-0598-e011-986b-78e7d1fa76f8) 
-  [Blackberry app download] (m.google.com/authenticator)
+  [iPhone](http://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8)
   
-* Scan Barcode into Google Authenticator app
+  [Android] (https://play.google.com/store/search?q=google+authenticator)
+  
+  [WindowsPhone] (http://www.windowsphone.com/en-US/apps/021dd79f-0598-e011-986b-78e7d1fa76f8) 
+  
+  [Blackberry] (m.google.com/authenticator)
+  
+* Scan user barcode into Google Authenticator app
 * The app will start displaying temporary six-digit codes.
 
 
