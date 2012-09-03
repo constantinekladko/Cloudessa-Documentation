@@ -14,7 +14,7 @@
 
 [Lesson 5: Enable Two-Factor Authentication.](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-5-enable-two-factor-authentication)
 
-[Lesson 6: Let users change and reset passwords]
+[Lesson 6: Let users change and reset passwords](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-5-let-users-change-and-reset-passwords)
 
 ### Lesson 1: Create a user and a group.
 
@@ -156,6 +156,6 @@ To perform two-factor authentication into Cloudessa RADIUS
     `password:mypassword,315739`
 
 
-### Lesson 5: Let users change and reset passwords.
+### Lesson 6: Let users change and reset passwords.
 
 
