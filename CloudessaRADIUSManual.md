@@ -1,10 +1,9 @@
 # Cloudessa RADIUS Manual
 
-(c) Cloudessa, Inc. 2012
+(c) [Cloudessa, Inc.](www.cloudessa.com) 2012
 
 
 ## Chapter 1: 60 second lessons
-
 
 
 [Lesson 1: Create a user and a group](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-1-create-a-user-and-a-group)
