@@ -36,6 +36,8 @@
 ## Chapter 5: Account administration
 
 
+## Chapter 1: 60 Second Lessons
+
 ### Lesson 1: Create a user and a group
 
 Let us create a group of RADIUS users, and add at least one user to this group. You'll need this for all other lessons.
