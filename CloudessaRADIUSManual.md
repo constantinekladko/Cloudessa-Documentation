@@ -63,7 +63,9 @@
 
 **Chapter 6: Account administration**
 
-In development
+* Setting account info
+* Upgrading your subscription
+* Changing payment information
 
 ## Chapter 1: 60 Second Lessons
 
