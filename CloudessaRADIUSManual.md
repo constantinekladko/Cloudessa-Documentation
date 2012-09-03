@@ -235,5 +235,18 @@ To give your guest `guest1@gmail.com` a temporary login into the `PEAP server` c
 * Click `OK`
 
 
+## Section 2: Users and Groups
+
+### 2.1 User Roles
+
+Cloudessa supports the following roles:
+
+* `Primary Admin` (root) manages all Cloudessa features. Super Admin can not be deleted.
+* `Admins` manage all Cloudessa features and web interface.
+* `Users` can use Cloudessa RADIUS server for authentication, authorization and audit. They can also optionally manage their passwords
+* `User Managers` can use Cloudessa RADIUS server, as well as add, remove and manage RADIUS users.
+* `Guest Users` can have temporary guest access to the Cloudessa RADIUS server for authentication, authorization and audit.
+
+
 
 
