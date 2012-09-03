@@ -30,7 +30,7 @@
 **Chapter 2: Users and Groups**
 
 * [User roles](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#21-user-roles)
-* Users
+* [Users] (https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#users)
 * Bulk User Import
 * User Groups
 
@@ -248,6 +248,8 @@ Cloudessa supports the following roles:
 * `Guest Users` can have temporary guest access to the Cloudessa RADIUS server for authentication, authorization and audit.
 
 ### Users
+
+### Bulk User Import
 
 ### User Groups
 
