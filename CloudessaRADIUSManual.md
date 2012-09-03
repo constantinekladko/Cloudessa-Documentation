@@ -131,7 +131,7 @@ To enable two-factor authentication for user `test`.
 
 Now one needs to setup the smartphone for the user.
 
-* Download Google Authenticator app from
+* Download Google Authenticator app for
 
   [iPhone](http://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8)
   
