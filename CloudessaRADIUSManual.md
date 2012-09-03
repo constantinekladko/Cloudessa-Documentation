@@ -75,7 +75,7 @@ Now we have created user `test` which is a member of `Group1`.
 
 ### Lesson 2: Create a simple PAP server
 
-Lets create a simple authentication server that implements PAP protocol.
+In this lesson we create a simple authentication server that implements PAP protocol.
 
 First lets create a virtual server
 
@@ -100,9 +100,7 @@ Now the PAP server is running and authenticating users from `Group1`.
 
 ### Lesson 3: Create a simple WPA2-Enteprise/PEAP server
 
-PEAP is a protocol widely used to secure Wi-Fi.
-
-Lets create a simple PEAP server.
+PEAP is a protocol widely used to secure Wi-Fi. In this lesson create a simple PEAP server.
 
 * Go to `Virtual Servers`, click `Create`
 * In the pop-up windows set server name to `PEAP Server` and protocol to `PEAP`
