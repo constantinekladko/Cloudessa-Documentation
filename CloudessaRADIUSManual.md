@@ -247,6 +247,8 @@ Cloudessa supports the following roles:
 * `User Managers` can use Cloudessa RADIUS server, as well as add, remove and manage RADIUS users.
 * `Guest Users` can have temporary guest access to the Cloudessa RADIUS server for authentication, authorization and audit.
 
+### Users
 
+### User Groups
 
 
