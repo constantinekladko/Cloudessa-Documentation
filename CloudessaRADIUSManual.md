@@ -29,7 +29,7 @@
 
 **Chapter 2: Users and Groups**
 
-* User roles
+* [User roles](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#21-user-roles)
 * Users
 * Bulk User Import
 * User Groups
