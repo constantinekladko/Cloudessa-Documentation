@@ -10,21 +10,21 @@
 **Chapter 1: 60 second lessons**
 
 
-[Lesson 1: Create a user and a group](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-1-create-a-user-and-a-group)
+* [Lesson 1: Create a user and a group](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-1-create-a-user-and-a-group)
 
-[Lesson 2: Create a simple PAP server](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-2-create-a-simple-pap-server)
+* [Lesson 2: Create a simple PAP server](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-2-create-a-simple-pap-server)
 
-[Lesson 3: Create a simple WPA2-Enteprise/PEAP server](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-3-create-a-simple-wpa2-enteprisepeap-server)
+* [Lesson 3: Create a simple WPA2-Enteprise/PEAP server](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-3-create-a-simple-wpa2-enteprisepeap-server)
 
-[Lesson 4: Restrict client access by source IP addresses](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-4-restrict-client-access-by-source-ip-addresses)
+* [Lesson 4: Restrict client access by source IP addresses](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-4-restrict-client-access-by-source-ip-addresses)
 
-[Lesson 5: Enable Two-Factor Authentication](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-5-enable-two-factor-authentication)
+* [Lesson 5: Enable Two-Factor Authentication](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-5-enable-two-factor-authentication)
 
-[Lesson 6: Let users change and reset passwords](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-6-let-users-change-and-reset-passwords)
+* [Lesson 6: Let users change and reset passwords](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-6-let-users-change-and-reset-passwords)
 
-[Lesson 7: Manage RADIUS attributes] (https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-7-manage-radius-attributes)
+* [Lesson 7: Manage RADIUS attributes] (https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-7-manage-radius-attributes)
 
-[Lesson 8: Create a guest login](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-8-create-guest-login)
+* [Lesson 8: Create a guest login](https://github.com/cloudess/Cloudessa-Documentation/blob/master/CloudessaRADIUSManual.md#lesson-8-create-guest-login)
 
 
 **Chapter 2: Users and Groups**
