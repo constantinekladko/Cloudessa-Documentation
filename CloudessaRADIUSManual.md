@@ -103,7 +103,7 @@ In this lesson we create a simple authentication server that implements PAP prot
 First lets create a virtual server
 
 * Go to `Virtual Servers`, click `Create`
-* In the pop-up windows set server name to `PAP Server` and protocol to `PAP`
+* In the pop-up window set server name to `PAP Server` and protocol to `PAP`
 * Click `OK`. Now the server is created
 * Now click the server to see the IP address as well as the authentication and accounting port numbers for the server. You need this information to configure your RADIUS client
 
@@ -166,7 +166,7 @@ Now we need to use this source IP address with the PAP server we created in Less
 * Select `PAP Server` in the server table
 * Click `Edit`, unset `Disable IP filtering` checkbox, and click `Save`
 * Go to `Src IP Addresses` tab
-* Click `Add src IP address", and select `Gateway1`
+* Click `Add src IP address`, and select `Gateway1`
 
 Now the PAP server is running and accepting only requests that come from the ip address `20.21.22.23`.
 
@@ -206,7 +206,7 @@ To perform two-factor authentication into Cloudessa RADIUS
 ### Lesson 6: Let users change and reset passwords
 
 Cloudessa enables regular RADIUS users to change their passwords using a simple web interface.
-If you do not want a particular user to be able to change or reset her password, you can unset `Allow user to manage her password` checkbox in the user settings tab.
+If you do not want a particular user to be able to change or reset his password, you can unset `Allow user to manage his password` checkbox in the user settings tab.
 
 To access the simple web interface for user `test` created in Lesson 1.
 
@@ -219,7 +219,7 @@ To change user password
 * Go to the "Set Password" panel
 * Set the new password
 
-If the user needs to reset her password 
+If the user needs to reset his password 
 
 * User clicks on the `Reset password` link included in [Cloudessa login page](https://app.cloudessa.com/account/login)
 * Password reset instructions are emailed to the user
